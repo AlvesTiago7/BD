@@ -1,0 +1,6 @@
+psql -Upostgres -W (Entra no banco solicitando senha)
+
+\l - Lista todos os bancos do programa
+\c Nome do Banco - Entra no Banco
+psql -Upostgres -W -d Nome do Banco -f Diretório do Script - Execulta um script de criação
+\dt - Mostra as tabelas do Banco
