@@ -4,3 +4,5 @@ psql -Upostgres -W (Entra no banco solicitando senha)
 \c Nome do Banco - Entra no Banco
 psql -Upostgres -W -d Nome do Banco -f Diretório do Script - Execulta um script de criação
 \dt - Mostra as tabelas do Banco
+select *from Nome da Tabela;
+insert into NomeDaTabela (NomeDaColuna) values ('Valor');
